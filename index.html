@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+.my-header h2 { 
+  display: inline;
+}
+.my-header span { 
+  float: right;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Vineet Tiwari</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>This website give brief knowledeg about my Work I have done in past years. I am certified in Machine Learning, R programming, Data Analysis, AWS(Cloud).</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="customer.jpg" alt="Mountains" style="width:100%">
+      <h3>Customer-Segment </h3>
+      <p>Our client is an online retailer based in the UK. They sell all-occasion gifts, and many of their customers are wholesalers.Most of their customers are from the UK, but they have a small percent of customers from other countries.</p>
+      <a href="https://github.com/ivineettiwari/Customer-Segment">Link For Code(Click Here)</a> 
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Fake.jpg" alt="Lights" style="width:100%">
+      <h3>Fake And Real News Prediction</h3>
+      <p>In this problem we have Fake and Real news,which we are going to classify and determine whether the given new is real or fake using Machine Learning (Classification problem).This gives brief Konowledge of News prediction.</p>
+      <a href="https://github.com/ivineettiwari/Fake-and-Real-news-Prediction">Link For Code(Click Here)</a> 
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Code.jpg" alt="Nature" style="width:100%">
+      <h3>CodeIT Competition</h3>
+      <p >CodeIt is the most elite private national informatics competition in Bulgaria. The competition is held annually in 6 rounds without attendance and a final attendance round with the partnership of companies, non-governmental organizations, IT associations and leading educational institutions in Bulgaria. To the big final will go the best twelve competitors .</p>
+      <a href="https://github.com/ivineettiwari/GOT_Battle_Of_Blackwater_v2_FINAL">Link For Code(Click Here)</a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="R.Jpg" alt="Mountains" style="width:100%">
+      <h3>R programming</h3>
+      <p>Completed my certification course in Rprogramming for coursera.The Analysis using R was explained in this coures and all the packages and model which was in bulit for analysis was explained.Stimulation and profling in R was also explained in it.</p>
+      <a href="https://github.com/ivineettiwari">Link For Code(Click Here)</a>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <h2>Certification Details</h2>
+  <h4>Data Analysis Tools: <span>Analysis Using SAS programming was introdued to perform hypotesis testing</span> </h4>
+  <h4>R programming: The course covers practical issues in statistical computing which includes programming in R, reading data into R, accessing R packages, writing R functions, debugging, profiling R code, and organizing and commenting R code. Topics in statistical data analysis will provide working examples</h4>
+  <a href="https://github.com/ivineettiwari/ivineettiwari.github.io/blob/master/Vineet_Resume.pdf" download="newfilename">Download My Resume</a>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
